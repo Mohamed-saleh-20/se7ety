@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:se7ety/feature/Auth/pages/login_page.dart';
 import 'package:se7ety/feature/intro/splash_screen.dart';
 
 void main() {
@@ -11,7 +12,8 @@ class MainApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      home: SplashScreen(),
+      debugShowCheckedModeBanner: false,
+      home: LoginPage(),
     );
-  }
+  } 
 }
